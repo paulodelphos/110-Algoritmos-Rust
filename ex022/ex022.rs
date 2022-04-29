@@ -10,7 +10,7 @@ fn main() {
     
     let maior = nome.to_uppercase();
     let menor = nome.to_lowercase();
-    let listanome: Vec<_> = nome.split(&[" "]).collect();
+    let listanome: Vec<_> = nome.split(' ').collect();
 
 
     println!("Analisando o nome...");
